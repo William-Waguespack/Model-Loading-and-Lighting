@@ -1,0 +1,27 @@
+# Build results
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+
+# Visual Studio folders
+/.vs/
+/Debug/
+/Release/
+/x64/
+/x86/
+/ipch/
+
+# Generated files
+*.aps
+*.ncb
+*.opendb
+*.cachefile
+*.VC.db
+
+# Other
+*.user
+*.suo

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\IMGUI">
+      <UniqueIdentifier>{c814b042-abde-45a0-b32a-0fb80d390dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IMGUI">
+      <UniqueIdentifier>{3d1d739d-6c30-46b7-926f-17f69d483032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{7c081966-d5a9-4c11-86ff-8e9f36b35e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{3056d0e4-f4d0-440e-9f6c-6b79f7b36da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{2f7d5d3d-8bad-408e-bf6e-3e4dfa96463d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Other">
+      <UniqueIdentifier>{fe56164a-a188-4e29-a992-2f2f6f200b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStructure">
+      <UniqueIdentifier>{5dd15767-e975-4a63-b253-ab12b1ae26a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStructure">
+      <UniqueIdentifier>{ff81e946-3177-4547-843f-5c35fdb9b894}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Dependencies\IMGUI\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\IMGUI\imgui_impl_glfw.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\IMGUI\imgui_widgets.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\IMGUI\imgui_tables.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\IMGUI\imgui_draw.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\IMGUI\imgui_demo.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\IMGUI\imgui.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseShader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubemap.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMesh.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NewShader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\GameStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files\GameStructure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Dependencies\IMGUI\imgui_impl_opengl3.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\IMGUI\imgui_impl_glfw.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\IMGUI\imstb_truetype.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\IMGUI\imstb_textedit.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\IMGUI\imstb_rectpack.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\IMGUI\imgui_internal.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\IMGUI\imgui.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\IMGUI\imconfig.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\IMGUI\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseShader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubemap.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMesh.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NewShader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\GameStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files\GameStructure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Models\backpack\ao.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Textures\back.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Textures\bottom.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Textures\brick.png">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Models\backpack\diffuse.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Textures\dirt.png">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Textures\front.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Textures\left.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Models\backpack\normal.png">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Textures\plain.png">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Textures\right.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Models\backpack\roughness.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Models\backpack\specular.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+    <Image Include="Textures\top.jpg">
+      <Filter>Resource Files\Other</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Skybox.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="BasicShading.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="NewShader.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Graph.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Models\BackFaceCube.fbx">
+      <Filter>Resource Files\Other</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Shader.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
