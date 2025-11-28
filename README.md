@@ -2,6 +2,7 @@
 
 A C++ OpenGL project demonstrating **3D model loading** and **dynamic lighting**.
 
+<img width="674" height="377" alt="image" src="https://github.com/user-attachments/assets/9e11326b-3ffb-4274-a4a7-312344595eea" />
 
 ## Features
 - Load 3D models using Assimp
